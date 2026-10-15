@@ -1,13 +1,13 @@
-package com.example.springboot_jwt_starter;
+package com.example;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringbootJwtStarterApplication {
+public class Application {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringbootJwtStarterApplication.class, args);
+		SpringApplication.run(Application.class, args);
 	}
 
 }
