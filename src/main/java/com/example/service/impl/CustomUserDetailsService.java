@@ -1,4 +1,4 @@
-package com.bfwg.service.impl;
+package com.example.service.impl;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
@@ -7,12 +7,8 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 
-import com.bfwg.model.User;
-import com.bfwg.repository.UserRepository;
-
-/**
- * Created by fan.jin on 2016-10-31.
- */
+import com.example.model.User;
+import com.example.repository.UserRepository;
 
 @Service
 public class CustomUserDetailsService implements UserDetailsService {

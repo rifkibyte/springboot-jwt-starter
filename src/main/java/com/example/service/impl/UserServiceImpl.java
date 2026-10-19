@@ -1,4 +1,4 @@
-package com.bfwg.service.impl;
+package com.example.service.impl;
 
 import java.util.List;
 
@@ -15,13 +15,9 @@ import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
-import com.bfwg.model.User;
-import com.bfwg.repository.UserRepository;
-import com.bfwg.service.UserService;
-
-/**
- * Created by fan.jin on 2016-10-15.
- */
+import com.example.model.User;
+import com.example.repository.UserRepository;
+import com.example.service.UserService;
 
 @Service
 public class UserServiceImpl implements UserService {
