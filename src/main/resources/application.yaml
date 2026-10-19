@@ -1,3 +1,19 @@
 spring:
   application:
     name: springboot-jwt-starter
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+  datasource:
+    url: jdbc:h2:mem:testdb
+    driver-class-name: org.h2.Driver
+    username: sa
+    password:
+
+app:
+  name: springboot-jwt-starter
+
+jwt:
+  secret: this-is-a-very-long-secret-key-that-is-at-least-64-bytes-long-for-hs512
+  expires_in: 3600
+  header: Authorization
